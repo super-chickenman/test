@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manager_jar.font.AdminRegController">
+   <children>
+      <Label alignment="CENTER" layoutX="201.0" layoutY="44.0" prefHeight="48.0" prefWidth="201.0" text="管理员注册界面">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="110.0" layoutY="94.0" prefHeight="48.0" prefWidth="87.0" text="账号名">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="155.0" prefHeight="48.0" prefWidth="143.0" text="请输入密码">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="18.0" layoutY="216.0" prefHeight="48.0" prefWidth="177.0" text="请再次输入密码">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="a_reg_aid" layoutX="214.0" layoutY="102.0" prefHeight="40.0" prefWidth="201.0" />
+      <PasswordField fx:id="a_reg_password" layoutX="214.0" layoutY="168.0" prefHeight="40.0" prefWidth="201.0" />
+      <PasswordField fx:id="a_reg_password_again" layoutX="214.0" layoutY="229.0" prefHeight="40.0" prefWidth="201.0" />
+      <Button fx:id="a_reg_setButton" layoutX="158.0" layoutY="300.0" mnemonicParsing="false" onAction="#AdminRegister" prefHeight="32.0" prefWidth="65.0" text="确定">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="a_reg_returnButton" layoutX="365.0" layoutY="302.0" mnemonicParsing="false" onAction="#AdminReturn" prefHeight="37.0" prefWidth="65.0" text="返回">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
